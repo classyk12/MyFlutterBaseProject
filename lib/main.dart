@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
+import 'package:flutter_base_project/routes/routes.dart';
 import 'package:get/get.dart';
 
 void main() async {
@@ -20,6 +21,6 @@ class MyApp extends StatelessWidget {
         title: 'MY BASE FLUTTER APP',
         // theme: lightTheme, //add theme if you need one
         initialRoute: '/splash',
-        getPages: []);
+        getPages: routeConstants());
   }
 }
